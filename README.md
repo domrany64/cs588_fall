@@ -1,7 +1,7 @@
 # cs588_fall
 This code is for the project of cloud DB course.
 The code wil be run on a virtual machine on GCP which is one of the nodes from Cassandra cluster.
-The code addresses 6 questions for the freeway data set.
+The code addresses 6 questions for the freeway data set.[^1]
 
 The output of the code is similar to below lines:
 ```
@@ -34,5 +34,5 @@ ________________________________________________________________________________
 ```
 
 note that: 
-1-The answer to q1 is not what it shoud be, the reason is that python times out when trying to connect to cassandra and run the query on a huge data set; hence, I ran this code on a smaller data set. The real answer is 6972!
+[^1]The answer to q1 is not what it shoud be, the reason is that python times out when trying to connect to cassandra and run the query on a huge data set; hence, I ran this code on a smaller data set. The real answer is 6972!
 2-The answer to q3 is partial since the entire number of them is 288 lines!
