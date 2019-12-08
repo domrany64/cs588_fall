@@ -32,3 +32,7 @@ The path is:
 Johnson Cr NB -> Foster NB -> Powell to I-205 NB -> Division NB -> Glisan to I-205 NB -> Columbia to I-205 NB
 ___________________________________________________________________________________________________________________________
 ```
+
+note that: 
+1-The answer to q1 is not what it shoud be, the reason is that python times out when trying to connect to cassandra and run the query on a huge data set; hence, I ran this code on a smaller data set. The real answer is 6972!
+2-The answer to q3 is partial since the entire number of them is 288 lines!
