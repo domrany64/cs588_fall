@@ -2,7 +2,7 @@ from cassandra.cluster import Cluster
 import pandas as pd
 
 def initiate():
-    cluster = Cluster(['0.0.0.0'],port=9042)
+    cluster = Cluster(['127.0.0.1'],port=9042)
     session = cluster.connect('cs588damon',wait_for_all_pools=True)
     session.request_timeout=60000
     session.default_timeout=60000
